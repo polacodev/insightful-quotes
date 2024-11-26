@@ -1,7 +1,6 @@
 import React from "react";
 import { View, Text } from "react-native";
 
-import IQTitle from "@/components/IQTitle";
 import IQIcon from "@/components/IQIcon";
 import { Quote } from "@/interfaces/quote";
 
@@ -11,17 +10,14 @@ interface IQCardProps {
 
 const IQCard = ({ quote }: IQCardProps) => {
   return (
-    <View
-      className="flex-1 p-5"
-    >
-      <IQTitle />
-      <View className="flex-1 justify-center items-center bg-[#ffffff] rounded-lg p-5" >
-        <View className="flex-1 justify-evenly items-center">
-          <Text className="text-[#7c7c7c] text-center">"{quote.body}"</Text>
-          <Text>—{quote?.author}</Text>
-          {quote.tags.length > 0 && <Text className="text-xs italic text-[#7c7c7c]">{quote.tags.join(", ")}</Text>}
+    <View className=" w-[100%] justify-center items-center pt-6 pb-6">
+      <View className="w-[85%] bg-[#ffffff] rounded-xl p-5 gap-4 border border-gray-200">
+        <View className="items-center gap-4">
+          <Text style={{ fontFamily: 'NunitoSans-Variable', fontSize: 16 }} className="text-center">"{quote.body}"</Text>
+          <Text style={{ fontFamily: 'NunitoSans-Medium', fontSize: 18 }}>—{quote?.author}</Text>
+          {quote.tags.length > 0 && <Text style={{ fontFamily: 'NunitoSans-Italic', fontSize: 12 }}>{quote.tags.join(", ")}</Text>}
         </View>
-        <View className="flex-row gap-5 ">
+        <View className="flex-row justify-center items-center gap-4 ">
           <View className="flex-col justify-center items-center">
             <IQIcon iconName="heart-dislike-outline" color="#a11313" />
             <Text>
@@ -41,9 +37,6 @@ const IQCard = ({ quote }: IQCardProps) => {
             </Text>
           </View>
         </View>
-      </View>
-      <View className="flex-1 items-center pt-10">
-        <IQIcon iconName="share-social-outline" color="#000000" />
       </View>
     </View>
   );

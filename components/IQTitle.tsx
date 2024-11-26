@@ -3,8 +3,8 @@ import { View, Text } from "react-native";
 
 const IQTitle = () => {
   return (
-    <View className="flex-1 justify-center items-center">
-      <Text className="text-lg text-[#7b7b7b]">Insightful Quotes</Text>
+    <View>
+      <Text style={{ fontFamily: 'Pacifico-Regular', fontSize: 21, color: '#333' }}>Insightful Quotes</Text>
     </View>
   );
 };
