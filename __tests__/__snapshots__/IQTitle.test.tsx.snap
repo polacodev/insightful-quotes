@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<IQTitle /> IQTitle renders correctly the title and Snapshot 1`] = `
+<View>
+  <Text
+    className="text-[#333] dark:text-[#bae4fd]"
+    style={
+      {
+        "fontFamily": "Pacifico-Regular",
+        "fontSize": 18,
+      }
+    }
+  >
+    Insightful Quotes
+  </Text>
+</View>
+`;

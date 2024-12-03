@@ -1,0 +1,86 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<IQCard /> IQCard renders correctly the tags and Snapshot 1`] = `
+<View
+  className=" w-[100%] justify-center items-center pt-6 pb-6"
+>
+  <View
+    className="w-[85%] bg-[#ffffff] dark:bg-[#181a1b] rounded-xl p-5 gap-4 border border-gray-200 dark:border-[#414749]"
+  >
+    <View
+      className="items-center gap-4"
+    >
+      <Text
+        className="text-center dark:text-[#ffffff]"
+        style={
+          {
+            "fontFamily": "NunitoSans-Variable",
+            "fontSize": 16,
+          }
+        }
+      >
+        "
+        I love deadlines. I like the whooshing sound they make as they fly by.
+        "
+      </Text>
+      <Text
+        className="dark:text-[#dcdcdc]"
+        style={
+          {
+            "fontFamily": "NunitoSans-Medium",
+            "fontSize": 18,
+          }
+        }
+      >
+        —
+        Douglas Adams
+      </Text>
+      <Text
+        className="dark:text-[#dcdcdc]"
+        style={
+          {
+            "fontFamily": "NunitoSans-Italic",
+            "fontSize": 12,
+          }
+        }
+      >
+        funny, work, british, writer
+      </Text>
+    </View>
+    <View
+      className="flex-row justify-center items-center gap-4 "
+    >
+      <View
+        className="flex-col justify-center items-center"
+      >
+        <Text />
+        <Text
+          className="dark:text-[#dcdcdc]"
+        >
+          0
+        </Text>
+      </View>
+      <View
+        className="flex-col justify-center items-center"
+      >
+        <Text />
+        <Text
+          className="dark:text-[#dcdcdc]"
+        >
+          0
+        </Text>
+      </View>
+      <View
+        className="flex-col justify-center items-center"
+      >
+        <Text />
+        <Text
+          className="dark:text-[#dcdcdc]"
+        >
+          2
+        </Text>
+      </View>
+    </View>
+  </View>
+</View>
+`;
