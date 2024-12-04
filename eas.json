@@ -1,0 +1,25 @@
+{
+  "cli": {
+    "version": ">= 12.6.1",
+    "appVersionSource": "remote"
+  },
+  "build": {
+    "development": {
+      "developmentClient": true,
+      "distribution": "internal"
+    },
+    "preview": {
+      "distribution": "internal"
+    },
+    "production": {
+      "autoIncrement": true
+    }
+  },
+  "submit": {
+    "production": {
+      "android": {
+        "serviceAccountKeyPath": "./hale-runner-443713-j4-d2570f7b1982.json"
+      }
+    }
+  }
+}

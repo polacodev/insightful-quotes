@@ -1,21 +1,23 @@
 {
   "expo": {
-    "name": "insightful-quotes",
+    "name": "Insightful Quotes",
     "slug": "insightful-quotes",
-    "version": "1.0.0",
+    "version": "1.0.2",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
-    "scheme": "myapp",
+    "scheme": "insightful-quotes",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.polacodev.insightfulquotes"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.polacodev.insightfulquotes"
     },
     "web": {
       "bundler": "metro",
@@ -24,6 +26,7 @@
     },
     "plugins": [
       "expo-router",
+      "expo-font",
       [
         "expo-splash-screen",
         {
@@ -36,6 +39,11 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "eas": {
+        "projectId": "ccc83fc3-c0f5-4829-a265-fe3e1671403c"
+      }
     }
   }
 }
