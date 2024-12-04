@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "insightful-quotes",
+    "name": "IQ",
     "slug": "insightful-quotes",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -9,13 +9,15 @@
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.polacodev.insightfulquotes"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.polacodev.insightfulquotes"
     },
     "web": {
       "bundler": "metro",
@@ -37,6 +39,11 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "eas": {
+        "projectId": "ccc83fc3-c0f5-4829-a265-fe3e1671403c"
+      }
     }
   }
 }
