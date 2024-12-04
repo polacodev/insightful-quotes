@@ -16,6 +16,10 @@
     }
   },
   "submit": {
-    "production": {}
+    "production": {
+      "android": {
+        "serviceAccountKeyPath": "./hale-runner-443713-j4-d2570f7b1982.json"
+      }
+    }
   }
 }
